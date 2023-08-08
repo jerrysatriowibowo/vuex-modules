@@ -4,21 +4,21 @@ const transaksi = {
         listTransaksi: [
             { 
                 id: "TRXIP1",
-                donatur: "Anugrah Sandi",
+                donatur: "Anugrah Bakti",
                 bantuan: "Gempa Lombok",
-                jumlah: 10000,
+                jumlah: 150000,
             },
             { 
                 id: "TRXIP2",
-                donatur: "Dharma",
+                donatur: "Dharma Mahmud",
                 bantuan: "Banjir Bandang",
                 jumlah: 250000,
             },
             { 
                 id: "TRXIP3",
-                donatur: "Asis Ramadhan",
+                donatur: "Axis Mahardika",
                 bantuan: "Beasiswa Pendidikan",
-                jumlah: 3000000,
+                jumlah: 300000,
             },
         ],
     },
@@ -33,7 +33,7 @@ const transaksi = {
             setTimeout(() => {
                 commit("ADD_DONASI", payload);
                 rootState.isLoading = false;
-            }, 1000);
+            }, 3000);
         }
     }
 }

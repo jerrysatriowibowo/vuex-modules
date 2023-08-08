@@ -6,9 +6,11 @@ const clients = {
             { name: "Beasiswa"},
             { name: "Banjir Bandang"},
             { name: "Tanggungan Kesehatan"},
-            { name: "Susu Anak"},
+            { name: "Tanggungan Hidup"},
             { name: "Santunan Anak Yatim"},
             { name: "Angin Puting Beliung"},
+            { name: "Tanah Longsor"},
+            { name: "Pembangunan Masjid"},
         ],
     },
     mutations: {
